@@ -1,3 +1,5 @@
+package circus;
+
 public class Trainer {
     public static void main(String[] args) {
         Duck d = new Duck();
@@ -11,7 +13,7 @@ public class Trainer {
 
         Duck d2 = (Duck) a; // downcasting
         train(new Duck());
-        // train(new Parrot());
+        // train(new circus.Parrot());
         Animal a2 = new Animal();
         Bird b2 = new Bird();
     }
